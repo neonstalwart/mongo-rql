@@ -1,6 +1,6 @@
 {
   "name": "mongo-rql",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "translate RQL queries into mongodb query objects",
   "main": "index.js",
   "scripts": {
