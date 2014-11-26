@@ -1,0 +1,32 @@
+{
+  "name": "mongo-rql",
+  "version": "0.0.0",
+  "description": "translate RQL queries into mongodb query objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jshint && intern-client config=tests/intern.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neonstalwart/mongo-rql.git"
+  },
+  "keywords": [
+    "persevere",
+    "rql",
+    "mongodb",
+    "query"
+  ],
+  "author": "Ben Hockey",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/neonstalwart/mongo-rql/issues"
+  },
+  "homepage": "https://github.com/neonstalwart/mongo-rql",
+  "dependencies": {
+    "rql": "^0.3.3"
+  },
+  "devDependencies": {
+    "intern": "^2.1.1",
+    "jshint": "^2.5.10"
+  }
+}
