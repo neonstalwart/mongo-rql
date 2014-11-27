@@ -325,6 +325,16 @@ define(function (require) {
 			};
 
 			assert.deepEqual(actual, expected);
+		},
+
+		'properly merges queries': function () {
+			var query = 'sort(+headline)&limit(10,0)',
+				actual = mongoRql(query);
+
+			expected.sort = { headline: 1 };
+			expected.limit = 10;
+
+			assert.deepEqual(actual, expected);
 		}
 	});
 });

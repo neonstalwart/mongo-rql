@@ -164,7 +164,7 @@ function and(a, b) {
 			}
 		}
 
-		term[ key ] = source;
+		term[ key ] = source != null ? source : dest;
 
 		return term;
 	}, a);
